@@ -28,9 +28,11 @@ h1 {
 
 /* regole main */
 article{
-    /* DEBUG */
-    background-color: blue;
-    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 20px 0;
+   
 }
 
 .row1{
