@@ -64,7 +64,7 @@ article{
 h3 {
     color: white;
     padding: 6px;
-    margin-left: 100px;
+    margin-left: 6px;
 }
 
 span {
@@ -74,7 +74,11 @@ span {
 
 a {
     display: block;
-    margin-left: 106px;
+    margin-left: 12px;
     color: aqua;
     text-decoration: none;
+}
+
+.content {
+    overflow: hidden;
 }
