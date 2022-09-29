@@ -18,12 +18,12 @@ main section::after {
 
 /* regole head */
 
-header{
-    height: 100px;
 
-    /* DEBUG */
-    background-color: aqua;
-    
+
+h1 {
+    text-align: center;
+    color: rgb(250, 68, 114);
+    padding: 30px;
 }
 
 /* regole main */
