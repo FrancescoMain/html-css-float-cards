@@ -59,6 +59,8 @@ article{
     width: 92%;
     height: 95px;
     margin: 20px auto;
+    border: 3px rgb(238, 234, 234) inset;
+    border-radius: 5px;
 }
 
 h3 {
