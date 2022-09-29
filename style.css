@@ -8,3 +8,50 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+    /* clearfix */
+main section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* regole head */
+
+header{
+    height: 100px;
+
+    /* DEBUG */
+    background-color: aqua;
+    
+}
+
+/* regole main */
+article{
+    /* DEBUG */
+    background-color: blue;
+    height: 100px;
+}
+
+.row1{
+    /* DEBUG */
+    background-color: blueviolet;
+    min-height: 100px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.row2{
+    /* DEBUG */
+    background-color: rgb(43, 226, 89);
+    min-height: 100px;
+}
+
+.col {
+    /* DEBUG */
+    min-height: 100px;
+    background-color: brown;
+    width: calc(100% /3);
+    float: left;
+    border: solid 2px black;
+}
