@@ -81,4 +81,5 @@ a {
 
 .content {
     overflow: hidden;
+    max-height: 100%;
 }
